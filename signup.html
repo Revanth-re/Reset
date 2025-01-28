@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         
+body{
+   background-color: rgb(216, 252, 117); 
+   margin: 50px;
+   
+}
+
+.form{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(152, 237, 249);
+    padding: 40px;
+    margin-top: 100px;
+    border-radius: 10px;
+    border: 3px solid black;
+  
+  
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.width{
+    padding: 6px;
+    width: 170px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+#button{
+    margin-left: 65px;
+    margin-top: 10px;
+    color: rgb(30, 32, 34);
+    background-color: bisque;
+    border-radius: 5px;
+    padding:5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+   
+    </style>
+</head>
+<body>
+   
+<div class="container">
+   <div class="form">
+    <form action="login.html" method="">
+        <center><h2><u>registration</u></h2></center>
+<input type="text" placeholder="enter ur name" name="Name" class="width" required pattern="[a-z]+"> <br>
+        <input type="email" placeholder="enter ur email" name="email" class="width" required> <br>
+        <input type="password" placeholder="enter ur password"  name="password" class="width" pattern="[0-9]+" required> <br>
+        <input type="password" placeholder="confirm-password"  name="c-password" class="width" required pattern="[0-9]+"> <br>
+<input type="submit" value="submit" formaction="login.html" id="button"> <br>
+   <center><a href="login.html"> Login here</a></center>
+ 
+
+    </form> <br>
+
+</div>
+</div>
+
+</body>
+</html>

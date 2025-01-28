@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         
+        body{
+            background-color: rgb(175, 244, 221);
+            margin: 40px;
+        }
+        .form{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(108, 234, 250);
+            padding: 40px;
+            margin-top: 50px;
+            border-radius: 10px;
+            border: 3px solid black;
+          
+          
+            
+        }
+        .class{
+            padding: 6px;
+            width: 170px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        
+        }
+        #button{
+            margin-left: 65px;
+            margin-top: 10px;
+            color: rgb(30, 32, 34);
+            background-color: bisque;
+            border-radius: 5px;
+            padding:5px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         
+        }
+        
+        #button:hover{
+        background-color: rgb(237, 225, 57);
+        cursor: pointer;
+        
+        
+        }
+        
+        h5
+        {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+           
+            </style>
+</head>
+<body>
+   
+    <div class="container">
+      
+    <div class="form">
+        
+       
+        <form action="Pass-reset.html" method="">
+            <center>  <h5><u>reset password</u></h5></center>
+            
+            <input type="password" placeholder="enter-new-password"  name="password" class="class" pattern="(?=.* [A-Z])(?=.* [a-z])(?=.* [0-9])(?=.* [!@#&*_=+?/>,.]) [a-zA-Z0-9!@#&*_=+?/>,.]{6}" required> <br>
+            <input type="password" placeholder="confirm-password"  name="c-password" class="class"> <br>
+            <input type="submit" id="button"  value="submit">
+      </form>    
+    
+      </div>
+    </div>
+</body>
+</html>
